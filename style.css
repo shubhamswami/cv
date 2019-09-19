@@ -1,0 +1,141 @@
+
+html{
+    font-family: ubuntu , sans-serif;
+}
+body{
+    margin: 0em;
+}
+#link{
+    position: relative;
+    width: 100%;
+    text-align: right;
+    background-color: rgb(14, 33, 202);
+    
+}
+#link ul{
+    list-style-type: none;
+    display: flex;
+    margin:0px;
+    padding:0.2em;
+    justify-content: flex-end;
+}
+#link a{
+    color: white;
+    margin: 0.7em;
+    text-decoration: none;
+}
+#intro{
+    display: flex;
+    width:100%;
+}
+#pp{
+    width: 130px;
+    height: auto;
+}
+#bio{
+    margin: 1em auto auto 01em;
+}
+#name, #occ{
+    margin:0px;
+    text-align:right;
+    width:100%;
+}
+.topic{
+    display: flex;
+    justify-content: space-around;    
+    height: 100%;
+    width: 100%;
+    background-color: rgb(41, 40, 48);
+    height: 2em;
+
+}
+.topic h1{
+    margin: 0px;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.topic a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 10%;
+}
+.topic h1:hover{
+    background-color: rgb(0, 0, 0);
+}
+section{
+    padding: 1em;
+    margin: 7px;
+}
+h1{
+    text-align: center;
+}
+.about-me,.experience,.education,.projects{
+    margin:0;
+}
+section h1{
+    color: rgb(82, 82, 156);
+    background-color: rgb(197, 208, 228);
+    margin-top: 15px; 
+}
+h3,p{
+    margin: 7px 0px;
+}
+h3{
+    margin-top:20px;
+}
+h5{
+    margin:0px;
+    padding: 0px;
+}
+table{
+    text-align: center;
+    width: 100%;
+}
+table th{
+    background-color: rgb(102, 163, 199);
+}
+table td{
+    border-bottom: 2px solid rgba(27, 54, 173, 0.452);
+    height: 2em;
+}
+
+
+.projects{
+    
+    margin: 0px;
+    padding: 0px;
+}
+.projects ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.projects li{
+    margin:1%;
+    align-content: space-between;
+    width: 100%;
+    overflow: auto;    
+}
+.projects img{
+    align-content: space-between;
+    width:80%;
+    height: 40%;
+}
+footer{
+    background-color: black;
+}
+footer ul{
+    display: flex;
+    margin: 0px;
+}
+footer li{
+    padding: 8px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
